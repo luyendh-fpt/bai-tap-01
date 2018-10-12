@@ -30,7 +30,7 @@ int main() {
     scanf("%d", &c);
     bool isValidateData = validateData(a, b, c);
     if (isValidateData) {
-        printf("Nửa chu vi tam giác là: %.2f", calculateHalfPastP(a, b, c));
+        printf("Kết quả nửa chu vi tam giác là: %.2f", calculateHalfPastP(a, b, c));
     }
     return 0;
 }
